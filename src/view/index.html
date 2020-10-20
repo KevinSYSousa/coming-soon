@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming soon | Responsive</title>
+    <link rel="stylesheet" href="/public/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Null</a>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <img src="/public/images/curve.png" class="bg" alt="Background" />
+      <div class="content-Box">
+        <h2>Em breve!</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
+          temporibus culpa quam eligendi voluptatum numquam nulla in, maiores
+          excepturi aut aperiam vero pariatur sint unde inventore, laborum, iste
+          eos dolorum?
+        </p>
+        <div class="countdown">
+          <div class="time">
+            <div id="day"></div>
+            <span>Days</span>
+          </div>
+          <div class="time">
+            <div id="hour"></div>
+            <span>Hours</span>
+          </div>
+          <div class="time">
+            <div id="minute"></div>
+            <span>Minutes</span>
+          </div>
+          <div class="time">
+            <div id="second"></div>
+            <span>Seconds</span>
+          </div>
+        </div>
+        <a href="#" onclick="toggle()">Me avise</a>
+      </div>
+      <div class="img-Box">
+        <img src="/public/images/w8.png" alt="Waiting" />
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="/public/images/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/public/images/linkedin.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/public/images/instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="newsletter">
+      <h2>Fique atento</h2>
+      <p>Seja notificado</p>
+      <div class="inputBox">
+        <form action="">
+          <input
+            type="email"
+            name=""
+            required=""
+            placeholder="Digite seu email"
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <img
+        class="close"
+        src="/public/images/close.png"
+        alt="close"
+        onclick="toggle()"
+      />
+    </div>
+    <script type="text/javascript" src="/public/scripts/time.js"></script>
+    <script type="text/javascript" src="/public/scripts/email.js"></script>
+  </body>
+</html>
