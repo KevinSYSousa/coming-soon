@@ -39,7 +39,7 @@ Coming soon responsive page
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
+- [Express](https://expressjs.com/)
 - [Node.js](https://nodejs.org/en/)
 
 ## :white_check_mark: Requirements ##
