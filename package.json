@@ -1,0 +1,23 @@
+{
+  "name": "coming-soon",
+  "version": "1.0.0",
+  "description": "Coming soon responsive page",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSYSousa/coming-soon.git"
+  },
+  "author": "Kevin Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevinSYSousa/coming-soon/issues"
+  },
+  "homepage": "https://github.com/KevinSYSousa/coming-soon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
