@@ -107,12 +107,12 @@ section .content-Box a:hover {
 }
 section .img-Box img {
   position: relative;
-  max-width: 500px;
+  max-width: 30rem;
   width: 100%;
   margin-top: 100px;
   z-index: 2;
   margin-left: 600px;
-  padding: 90px;
+  padding-right: 10rem;
 }
 .bg {
   position: absolute;
@@ -212,4 +212,17 @@ section .sci img:hover {
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+@media (max-width: 991px) {
+  section {
+    flex-direction: column;
+    padding-top: 150px;
+    height: auto;
+  }
+  section .content-Box {
+    max-width: 100%;
+  }
+  section .img-Box {
+    margin-top: 0;
+  }
 }
