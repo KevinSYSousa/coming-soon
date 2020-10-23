@@ -60,6 +60,7 @@ section .content-Box h2 {
   font-size: 60px;
   color: #fff;
   text-transform: uppercase;
+  margin-top: 5rem;
 }
 section .content-Box p {
   font-size: 18px;
@@ -107,12 +108,11 @@ section .content-Box a:hover {
 }
 section .img-Box img {
   position: relative;
-  max-width: 30rem;
+  max-width: 15rem;
   width: 100%;
   margin-top: 100px;
   z-index: 2;
-  margin-left: 600px;
-  padding-right: 10rem;
+  margin-bottom: 10px;
 }
 .bg {
   position: absolute;
@@ -142,6 +142,8 @@ section .sci li a {
 section .sci img {
   width: 100px;
   transition: 1s;
+  margin-top: 20px;
+  z-index: 2;
 }
 section .sci img:hover {
     opacity: 0.7;
@@ -224,5 +226,57 @@ section .sci img:hover {
   }
   section .img-Box {
     margin-top: 0;
+  }
+  section .sci {
+    position: initial;
+    bottom: .8rem;
+    z-index: 1000;
+    display: flex;
+    filter: invert(1);
+    margin: auto;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    padding: 20px 50px;
+  }
+  section {
+    flex-direction: column;
+    padding: 120px 20px 50px;
+    height: auto;
+  }
+  section .content-Box h2 {
+    font-size: 40px;
+  }
+  section .content-Box p {
+    font-size: 16px;
+  }
+  section .content-Box .countdown .time {
+    font-size: 30px;
+    min-width: 70px;
+    margin-right: 5px;
+  }
+  section .content-Box .countdown .time span {
+    font-size: 14px;
+  }
+  section .content-Box a {
+    position: absolute;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 40px;
+  }
+  .newsletter {
+    width: 80%;
+    padding: 30px;
+  }
+  
+}
+@media (min-width: 374px) {
+  section .content-Box h2 {
+    margin-top: 1rem;
   }
 }
