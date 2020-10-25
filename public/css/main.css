@@ -104,7 +104,7 @@ section .content-Box a {
   transition: 1s;
 }
 section .content-Box a:hover {
-    background: #422b75;
+  background: #422b75;
 }
 section .img-Box img {
   position: relative;
@@ -146,10 +146,10 @@ section .sci img {
   z-index: 2;
 }
 section .sci img:hover {
-    opacity: 0.7;
-    border: 2px 0 0 0 solid #fff;
-    background: #237a32;
-    border-radius: 500px;
+  opacity: 0.7;
+  border: 2px 0 0 0 solid #fff;
+  background: #237a32;
+  border-radius: 500px;
 }
 .newsletter {
   position: fixed;
@@ -168,8 +168,8 @@ section .sci img:hover {
   transition: 1s;
 }
 .newsletter.active {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 .newsletter h2 {
   font-size: 48px;
@@ -208,12 +208,12 @@ section .sci img:hover {
   background: #2c9c53;
 }
 .newsletter .close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 @media (max-width: 991px) {
   section {
@@ -229,7 +229,7 @@ section .sci img:hover {
   }
   section .sci {
     position: initial;
-    bottom: .8rem;
+    bottom: 0.8rem;
     z-index: 1000;
     display: flex;
     filter: invert(1);
@@ -273,7 +273,6 @@ section .sci img:hover {
     width: 80%;
     padding: 30px;
   }
-  
 }
 @media (min-width: 374px) {
   section .content-Box h2 {
